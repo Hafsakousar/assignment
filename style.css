@@ -1,0 +1,152 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: rgb(4, 38, 66);
+    height:60px ;
+    width: 100%;
+}
+label.logo{
+font-size: 20px;
+line-height: 80px;
+margin-left: 50px;
+color: white;
+padding: 10px;
+}
+nav ul{
+float: right;
+margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin: 10px;
+}
+nav ul li a{
+  font-size:15px ;
+  color:white ;
+  border-radius: 5px;
+  padding: 7px 13px;
+}
+.target{
+    background-color: rgb(4, 38, 66);
+    height: 200px;
+    width: 100%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ p.one{
+    color: white;
+    font-size: 40px;
+    text-align: 20px;
+    margin-left:50px;
+}
+p.two{
+    color: white;
+    font-size:15px ;
+    text-align:15px ;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.btn{
+    color: white;
+    background-color: rgb(4, 38, 66);
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.active,a:hover{
+    background-color: rgb( 16,67,87);
+}
+ .pic{
+    margin-left: 70%;
+    margin-top: -100px;
+    height: 140px;
+    width: 210px;
+
+ }
+.heading{
+    color: rgb(4, 38, 66);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+.body-stuff {
+    display: flex;
+    justify-content:center;
+    margin: 5px;
+    padding: 7px 13px;
+    margin-right: 10px;
+
+}
+.sub-heading{
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 79, 79);
+    margin: 5px;
+    color: rgb(4, 38, 66);
+
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 228, 93);
+    margin: 5px;
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(85, 176, 255);
+    margin: 5px;
+}
+
+.box4 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(178, 178, 178);
+    margin: 5px;}
+.text{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.text1{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.img{
+    margin-top: 20px;
+    margin-left: 10px;
+    /* background-color: rgb(178, 178, 178) ; */
+    color:  rgb(178, 178, 178);
+    border: none;
+} 
+/* .container{
+    background-color: rgb(4, 38, 66); 
+} */
+.para1{
+    background-color: rgb(4, 38, 66);
+    text-align: center;
+    /* background-color: rgb(4, 38, 66); */
+    font-size: 30px;
+    color: white;
+    padding: 25px;
+}
+.para2{
+    font-size: 15px;
+    background-color:rgb(4, 38, 66) ;
+    color: yellow;
+    text-align: center;
+    margin-top: -15px;
+}
